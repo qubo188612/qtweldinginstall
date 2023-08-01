@@ -8,6 +8,8 @@ RUN sudo apt-get update  \
     && sudo apt-get -y install libopenni-dev \
 #   && sudo apt-get -y install language-pack-zh-hans \	
 #   && sudo apt-get install -y ibus ibus-pinyin ibus-gtk ibus-gtk3 \
+#   && sudo apt -y install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2 \
+#   && sudo apt -y install libgsettings-qt1 \
     && sudo rm -rf /var/lib/apt/lists/* 
 
 #配置默认输入法设置
